@@ -1,0 +1,15 @@
+{
+  "name": "order-pricing-promotions",
+  "version": "1.0.0",
+  "description": "E-commerce Order Pricing Promotions Module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:watch": "cucumber-js --watch"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "assert": "^2.1.0"
+  },
+  "type": "module"
+} 

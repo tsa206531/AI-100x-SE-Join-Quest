@@ -1,0 +1,19 @@
+{
+  "name": "chess-web",
+  "version": "1.0.0",
+  "description": "Chinese Chess Web Game with BDD Testing",
+  "main": "src/ChessService.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:watch": "cucumber-js --watch"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "assert": "^2.1.0"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "vite": "^7.0.2",
+    "vue": "^3.5.17"
+  }
+}
